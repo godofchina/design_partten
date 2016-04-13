@@ -3,5 +3,5 @@ This is a series of code about design partten
 
 ##singleton
 ##factory
-	###simpleFactory
-	###completeFactory
+###simpleFactory
+###completeFactory
