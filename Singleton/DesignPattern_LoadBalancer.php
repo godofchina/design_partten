@@ -38,6 +38,7 @@ class LoadBalancer
 		return array_rand($this->list);
 	}
 }
+
 echo '<pre>';
 $instance = LoadBalancer::getLoadBalancer();
 var_dump($instance);
