@@ -1,4 +1,5 @@
 <?php
+//加注释啊
 abstract class Button
 {
 	abstract public function createButton();
