@@ -3,7 +3,7 @@
 创建型(creational), 结构型(structual), 行为型(behavioral)
 
 # 创建型设计模式
-	## [工厂方法模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) (Factory method)
+	##[工厂方法模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Factory method
 	##抽象工厂模式(Abstract factory)
 	##单例模式(Singleton)
 	##建造者模式(Builder)
