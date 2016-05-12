@@ -1,10 +1,12 @@
 <?php
 /**
  * 复合模式
+ * 组合多个对象形成树形结构以表示具有"整体-部分"关系的层次结构。
+ * 组合模式对单个对象(即叶子对象)和组合对象的使用具有一致性,组合模式又可以成为"整体-部分"part-whole模式,它是一种对象结构型模式。
  * 在复合模式中 单一对象和一组对象 会被同等对待
- * 解决了什么问题
- * 有个容器的概念需要理解
+ * 
  */
+//组件类 抽象
 abstract class Component
 {
 	abstract public function add($component);
@@ -13,6 +15,7 @@ abstract class Component
 	abstract public function operation();
 }
 
+//叶节点类
 class Leaf extends Component
 {
 	public function add($component)
@@ -36,7 +39,7 @@ class Leaf extends Component
 		return true;
 	}
 }
-
+//复合容器类
 class Composite extends Component
 {
 	private $component_list = array(); 
@@ -60,8 +63,9 @@ class Composite extends Component
 
 	public function operation()
 	{
+		echo 'operate components done';
 		foreach ($this->component_list as $key => $value) {
-			echo 'operate ' . $key . ' component done';
+			$this->operation();
 		}
 
 		return true;
@@ -74,4 +78,4 @@ $composite->add('s');
 $composite->add('x');
 $composite->getChild(1);
 $composite->operation();
-file_put_contents('1.txt', 'sss' . PHP_EOL . 'aaa');
+// file_put_contents('1.txt', 'sss' . PHP_EOL . 'aaa');
