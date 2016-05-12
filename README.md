@@ -4,10 +4,10 @@
 
 # 创建型设计模式
 1.  [工厂方法模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Factory method
-2.  抽象工厂模式(Abstract factory)
-3.  单例模式(Singleton)
-4.  建造者模式(Builder)
-5.  原型模式(Prototype)
+2.  [抽象工厂模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Abstract factory
+3.  [单例模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Singleton
+4.  [建造者模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Builder
+5.  [原型模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Prototype
 
 # 结构型设计模式
 1.  适配器模式(Adapter)
