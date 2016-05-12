@@ -2,13 +2,14 @@
 目前流行的设计模式主要分三大类  
 创建型(creational), 结构型(structual), 行为型(behavioral)
 
-># 创建型设计模式
+# 创建型设计模式
 1.  [工厂方法模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Factory method
 2.  抽象工厂模式(Abstract factory)
 3.  单例模式(Singleton)
 4.  建造者模式(Builder)
 5.  原型模式(Prototype)
-># 结构型设计模式
+
+# 结构型设计模式
 1.  适配器模式(Adapter)
 2.  桥接模式(Bridge)
 3.  装饰器模式(Decorator)
@@ -16,8 +17,9 @@
 5.  外观模式(Facade)
 6.  享元模式(FlyWeight)
 7.  代理模式(Proxy)
-8.  私有类数据模式(Private class data)
-># 行为型设计模式
+8.  私有类数据模式(Private class data)  
+
+# 行为型设计模式
 1.  责任链模式(Chain of responsibility)
 2.  命令模式(Command)
 3.  解释器模式(Interpreter)
