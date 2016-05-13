@@ -2,7 +2,7 @@
 /**
  * 桥接模式
  * 
- * 还需要理解下 这个例子举得不太好
+ * 这个例子举得不太好
  */
 abstract class BridgeBook 
 {

@@ -7,7 +7,10 @@
 //抽象文件类
 abstract class AbstractFile
 {
-	abstract public function add($file);
+	public function add($file)
+	{
+		echo "We don't support this method";
+	}
 	abstract public function remove($file);
 	abstract public function getChild($i);
 	abstract public function killVirus();
@@ -23,11 +26,11 @@ class IMageFile extends AbstractFile
 		$this->name = $name;
 	}
 
-	public function add($file)
-	{
-		//抛出一个人为定义的异常
-		echo $this->name . ' 无此项操作';
-	}
+	// public function add($file)
+	// {
+	// 	//抛出一个人为定义的异常
+	// 	echo $this->name . ' 无此项操作';
+	// }
 
 	public function remove($file)
 	{
@@ -55,11 +58,11 @@ class TextFile extends AbstractFile
 		$this->name = $name;
 	}
 
-	public function add($file)
-	{
-		//抛出一个人为定义的异常
-		echo $this->name . ' 无此项操作';
-	}
+	// public function add($file)
+	// {
+	// 	//抛出一个人为定义的异常
+	// 	echo $this->name . ' 无此项操作';
+	// }
 
 	public function remove($file)
 	{
