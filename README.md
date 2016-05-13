@@ -12,7 +12,7 @@
 # 结构型设计模式
 1.  适配器模式(Adapter)
 2.  桥接模式(Bridge)
-3.  装饰器模式(Decorator)
+3.  [装饰器模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Decorator/decorator_SimpleDecorator.md) Decorator
 4.  复合模式(Composite)
 5.  外观模式(Facade)
 6.  享元模式(FlyWeight)
