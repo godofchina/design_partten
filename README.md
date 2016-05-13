@@ -10,7 +10,7 @@
 5.  [原型模式](https://github.com/godofchina/design_partten/tree/master/CreationalPattern/Factory) Prototype
 
 # 结构型设计模式
-1.  适配器模式 Adapter
+1.  [适配器模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Adapter/README.md) Adapter
 2.  [桥接模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Bridge/README.md) Bridge
 3.  [装饰器模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Decorator/decorator_SimpleDecorator.md) Decorator
 4.  [复合模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Composite) Composite
