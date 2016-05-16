@@ -3,4 +3,4 @@
 >优点:
 >缺点:
 >使用场景:
-![享元模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/FlyWeight/Flyweight.jpg)
+![享元模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Flyweight/Flyweight.jpg)
