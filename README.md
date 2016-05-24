@@ -16,7 +16,7 @@
 4.  [复合模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Composite) Composite
 5.  [外观模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Facade/facade_SimpleFacade.md) Facade
 6.  [享元模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Flyweight) FlyWeight
-7.  代理模式(Proxy)
+7.  [代理模式](https://github.com/godofchina/design_partten/blob/master/StructuralPattern/Proxy) Proxy
 8.  私有类数据模式(Private class data)  
 
 # 行为型设计模式
